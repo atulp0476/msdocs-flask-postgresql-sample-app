@@ -6,8 +6,8 @@ conn_str = os.environ['AZURE_POSTGRESQL_CONNECTIONSTRING']
 conn_str_params = {pair.split('=')[0]: pair.split('=')[1] for pair in conn_str.split(' ')}
 
 DATABASE_URI = 'postgresql+psycopg2://{dbuser}:{dbpass}@{dbhost}/{dbname}'.format(
-    dbuser=conn_str_params['jcejattqrt'],
-    dbpass=conn_str_params['6yVbHaagzbkTGY$l'],
+    dbuser=conn_str_params['cuicoipgob'],
+    dbpass=conn_str_params['hI9D8cB$Ibpij$qW'],
     dbhost=conn_str_params['atuldemowebapp-server.postgres.database.azure.com'],
     dbname=conn_str_params['atuldemowebapp-database']
 )
